@@ -89,7 +89,7 @@ img{
     width: 100%;
     font-size: 17pt;
     margin-top: 40%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     text-align: center;
     display: block;
 }
@@ -125,6 +125,7 @@ img{
     border-radius: 10px;
     transform: translateY(-50%);
     z-index: 999;
+    word-break: break-all;
 }
 
 .close_btn{
@@ -133,12 +134,13 @@ img{
     display: block;
     cursor: pointer;
     width: 3vw;
-    height: 8vh;
+    height: 12vh;
     overflow: hidden;
     font-size: 30pt;
     display: inline;
     float: right;
     text-align: center;
+    aspect-ratio: 1/1;
 }
 
 .modal_popup h3{
@@ -146,9 +148,11 @@ img{
     width: 80%;
     font-size: 30pt;
     display: inline-block;
+    margin-bottom: 5%;
 }
 
 .modal_popup p{
-    margin-top: 10%;
-    font-size: 22pt;
+    margin-top: 3%;
+    font-size: 80%;
+    
 }
