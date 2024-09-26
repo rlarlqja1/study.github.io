@@ -82,7 +82,7 @@ img{
     border-left: 2px solid black;
     text-align: center;
     /* background-color: aquamarine; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .ques{
@@ -98,7 +98,7 @@ img{
     width: 80%;
     text-align: center;
     display: block;
-    font-size: 25pt;
+    font-size: 6vh;
     margin-left: 11%;
 }
 
