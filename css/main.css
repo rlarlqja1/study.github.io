@@ -125,7 +125,7 @@ img{
     border-radius: 10px;
     transform: translateY(-50%);
     z-index: 999;
-    word-break: break-all;
+    overflow-y: auto;
 }
 
 .close_btn{
@@ -153,6 +153,5 @@ img{
 
 .modal_popup p{
     margin-top: 3%;
-    font-size: 80%;
-    
+    font-size: 5vh;
 }
