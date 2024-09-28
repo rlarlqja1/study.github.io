@@ -12,16 +12,26 @@ a{
 }
 
 body {
-    width: 100vh;
     width: 100vw;
-    transform: rotate(90);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#rotate{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(90deg);
+    position: absolute;
 }
 
 #upper{
     display: flex;
     width: 100%;
     height: 12%;
-    /* background-color: yellow; */
+    background-color: yellow;
     position: absolute;
 }
 
@@ -40,7 +50,7 @@ img{
 /* 과목 */
 #subject{
     font-size: 25pt;
-    line-height: 11vh;
+    line-height: 7vh;
     /* margin-top: 2%; */
 }
 
@@ -49,7 +59,7 @@ img{
     font-size: 25pt;
     margin-left: auto;
     margin-right: 4%;
-    line-height: 11vh;
+    line-height: 7vh;
     z-index: 999;
 }
 
@@ -58,7 +68,7 @@ img{
     display: flex;
     width: 70%;
     height: 88%;
-    /* background-color: aqua; */
+    background-color: aqua;
     position: absolute;
     top: 12%;
 }
@@ -82,7 +92,6 @@ img{
     border-left: 2px solid black;
     text-align: center;
     /* background-color: aquamarine; */
-    /* overflow: hidden; */
 }
 
 .ques{
@@ -98,7 +107,7 @@ img{
     width: 80%;
     text-align: center;
     display: block;
-    font-size: 6vh;
+    font-size: 4vh;
     margin-left: 11%;
 }
 
@@ -117,8 +126,10 @@ img{
     position: absolute;
     top: 50%;
     left: 28%;
-    width: 40vw;
-    height: 60vh;
+    /* width: 45vw;
+    height: 60vh; */
+    width: 80vw;
+    height: 45vh;
     padding: 20px;
     background-color: #fff;
     border: 1px solid;
