@@ -25,6 +25,9 @@ body {
     height: 100dvw;
     transform: rotate(90deg);
     position: absolute;
+    /* 가로 */
+    /* width: 100dvw;
+    height: 100dvh; */
 }
 
 #upper{
@@ -103,7 +106,7 @@ img{
     width: 80%;
     text-align: center;
     display: block;
-    font-size: 4dvh;
+    font-size: 3.6dvh;
     margin-left: 11%;
 }
 
@@ -121,9 +124,7 @@ img{
 .modal .modal_popup{
     position: absolute;
     top: 50%;
-    left: 28%;
-    /* width: 45vw;
-    height: 60vh; */
+    left: 28%; 
     width: 80dvw;
     height: 45dvh;
     padding: 20px;
@@ -133,6 +134,9 @@ img{
     transform: translateY(-50%);
     z-index: 999;
     overflow-y: auto;
+    /* 가로 */
+    /* width: 45vw;
+    height: 60vh; */
 }
 
 .close_btn{
@@ -159,5 +163,5 @@ img{
 
 .modal_popup p{
     margin-top: 3%;
-    font-size: 5dvh;
+    font-size: 4.5dvh;
 }
