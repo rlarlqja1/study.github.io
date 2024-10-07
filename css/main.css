@@ -6,162 +6,42 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-}
-
 body {
-    width: 100dvw;
-    height: 100dvh;
-    display: grid;
-    place-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-#rotate{
-    width: 100dvh;
-    height: 100dvw;
-    transform: rotate(90deg);
-    position: absolute;
-    /* 가로 */
-    /* width: 100dvw;
-    height: 100dvh; */
+    width: 100vh;
+    width: 100vw;
 }
 
 #upper{
     display: flex;
-    width: 100%;
-    height: 12%;
-    position: absolute;
+    height: 10vh;
+    /* justify-content: space-around; */
 }
 
 /* 햄버거 메뉴 */
-img{
+#buger_menu{
     cursor: pointer;
-    height: 50%;
-    aspect-ratio: 1/1;
+    width: 3vw;
     display: flex;
-    margin-top: 1.5%;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 3vw;
+    /* margin-top: 3vh; */
 }
 
-/* 과목 */
-#subject{
-    font-size: 25pt;
-    line-height: 7dvh;
-    /* margin-top: 2%; */
-}
-
-/* 시간 */
-#clock{
-    font-size: 25pt;
-    margin-left: auto;
-    margin-right: 4%;
-    line-height: 7vh;
-    z-index: 999;
-}
-
-/* 왼쪽 텍스트 */
-#left_cont{
-    display: flex;
-    width: 70%;
-    height: 88%;
+#buger_menu span{
+    width: 2.5vw;
+    height: .4vh;
+    background-color: black;
     position: absolute;
-    top: 12%;
 }
 
-.left_text{
-    width: 90%;
-    height: 10%;
-    margin-left: 4%;
-    margin-top: 20%;
-    font-size: 30pt;
-    cursor: pointer;
-    display: block;
+/* 햄버거 닫혔을때 */
+#buger_menu span:nth-child(1){
+    top: 3vh;
 }
 
-/* 오른쪽 질문 */
-#right_cont{
-    width: 30%;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    border-left: 2px solid black;
-    text-align: center;
+#buger_menu span:nth-child(2){
+    top: 4vh;
 }
 
-.ques{
-    width: 100%;
-    font-size: 17pt;
-    margin-top: 40%;
-    margin-bottom: 20%;
-    text-align: center;
-    display: block;
-}
-
-.ques_text{
-    width: 80%;
-    text-align: center;
-    display: block;
-    font-size: 3.6dvh;
-    margin-left: 11%;
-}
-
-/* 모달창 */
-.modal{
-    display: none;
-    position: absolute;
-    justify-content: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.modal .modal_popup{
-    position: absolute;
-    top: 50%;
-    left: 28%; 
-    width: 80dvw;
-    height: 45dvh;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid;
-    border-radius: 10px;
-    transform: translateY(-50%);
-    z-index: 999;
-    overflow-y: auto;
-    /* 가로 */
-    /* width: 45vw;
-    height: 60vh; */
-}
-
-.close_btn{
-    border: 0;
-    background-color: transparent;
-    display: block;
-    cursor: pointer;
-    width: 6dvw;
-    height: 10dvh;
-    overflow: hidden;
-    font-size: 30pt;
-    display: inline;
-    float: right;
-    text-align: center;
-    aspect-ratio: 1/1;
-}
-
-.modal_popup h3{
-    width: 80%;
-    font-size: 30pt;
-    display: inline-block;
-    margin-bottom: 5%;
-}
-
-.modal_popup p{
-    margin-top: 3%;
-    font-size: 4.5dvh;
+#buger_menu span:nth-child(3){
+    top: 5vh;
 }
