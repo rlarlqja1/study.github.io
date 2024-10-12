@@ -73,7 +73,7 @@ img{
     position: absolute;
     top: 12%;
     overflow: hidden;
-    background-color: rgb(235, 252, 255);
+    background-color: rgb(248, 250, 249);
 }
 
 .left_text{
@@ -95,7 +95,7 @@ img{
     /* border-left: 2px solid black; */
     text-align: center;
     margin-top: 5.5%;
-    background-color: rgb(219, 255, 227);
+    background-color: rgb(228, 253, 233);
 }
 
 .ques{
