@@ -54,6 +54,7 @@ img{
     font-size: 25pt;
     line-height: 6dvh;
     /* margin-top: 2%; */
+    font-family: "나눔고딕";
 }
 
 /* 시간 */
@@ -63,6 +64,8 @@ img{
     margin-right: 4%;
     line-height: 6vh;
     z-index: 999;
+    font-family: "나눔고딕";
+    font-weight: bold;
 }
 
 /* 왼쪽 텍스트 */
@@ -84,6 +87,7 @@ img{
     font-size: 30pt;
     cursor: pointer;
     display: block;
+    font-family: "나눔고딕";
 }
 
 /* 오른쪽 질문 */
@@ -113,6 +117,8 @@ img{
     display: block;
     font-size: 3.6dvh;
     margin-left: 11%;
+    font-family: "나눔고딕";
+    font-weight: bold;
 }
 
 /* 모달창 */
