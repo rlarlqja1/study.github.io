@@ -81,8 +81,7 @@ img{
 }
 
 .left_text{
-    width: 90%;
-    height: 13%;
+    /* width: 90%; */
     margin-left: 4%;
     font-size: 30pt;
     cursor: pointer;
